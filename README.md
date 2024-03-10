@@ -7,7 +7,7 @@ docker build -t cmp2240 .
 ## Run container
 
 ```bash
-docker run -it --rm -v $(pwd):/root/cs143 cmp2240
+docker run -it --rm -v $(pwd):/root/cs143 cmp2240:latest /bin/bash
 ```
 
 ## Run the compiler
