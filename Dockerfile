@@ -18,4 +18,4 @@ RUN rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 WORKDIR /root/cs143
 
-CMD ["tail", "-f", "/dev/null"]
+CMD ["bash"]

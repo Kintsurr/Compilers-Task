@@ -1,0 +1,19 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Docker build image",
+      "type": "shell",
+      "command": "docker build -t cmp2240 .",
+      "problemMatcher": []
+    },
+    {
+      "label": "Run docker container",
+      "type": "shell",
+      "command": "docker run -it -v ${workspaceFolder}:/root/cs143 cmp2240:latest /bin/bash",
+      "problemMatcher": []
+    }
+  ]
+}
