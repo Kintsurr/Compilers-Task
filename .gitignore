@@ -1,2 +1,6 @@
 .idea
 *.s
+bin/
+obj/
+.vs/
+*.vsidx
